@@ -1,0 +1,86 @@
+.recent-events {
+  display: flex;
+  flex-wrap: wrap; }
+  .recent-events__card_1 {
+    margin: 10px;
+    width: calc(100% / 12 * 1 - 2 * 10px); }
+  .recent-events__card_2 {
+    margin: 10px;
+    width: calc(100% / 12 * 2 - 2 * 10px); }
+  .recent-events__card_3 {
+    margin: 10px;
+    width: calc(100% / 12 * 3 - 2 * 10px); }
+  .recent-events__card_4 {
+    margin: 10px;
+    width: calc(100% / 12 * 4 - 2 * 10px); }
+  .recent-events__card_5 {
+    margin: 10px;
+    width: calc(100% / 12 * 5 - 2 * 10px); }
+  .recent-events__card_6 {
+    margin: 10px;
+    width: calc(100% / 12 * 6 - 2 * 10px); }
+  .recent-events__card_7 {
+    margin: 10px;
+    width: calc(100% / 12 * 7 - 2 * 10px); }
+  .recent-events__card_8 {
+    margin: 10px;
+    width: calc(100% / 12 * 8 - 2 * 10px); }
+  .recent-events__card_9 {
+    margin: 10px;
+    width: calc(100% / 12 * 9 - 2 * 10px); }
+  .recent-events__card_10 {
+    margin: 10px;
+    width: calc(100% / 12 * 10 - 2 * 10px); }
+  .recent-events__card_11 {
+    margin: 10px;
+    width: calc(100% / 12 * 11 - 2 * 10px); }
+  .recent-events__card_12 {
+    margin: 10px;
+    width: calc(100% / 12 * 12 - 2 * 10px); }
+
+@media screen and (max-width: 768px) {
+  .recent-events__card_1 {
+    margin: 10px;
+    width: calc(100% - 2 * 10px); }
+  .recent-events__card_2 {
+    margin: 10px;
+    width: calc(100% - 2 * 10px); }
+  .recent-events__card_3 {
+    margin: 10px;
+    width: calc(100% - 2 * 10px); }
+  .recent-events__card_4 {
+    margin: 10px;
+    width: calc(100% - 2 * 10px); }
+  .recent-events__card_5 {
+    margin: 10px;
+    width: calc(100% - 2 * 10px); }
+  .recent-events__card_6 {
+    margin: 10px;
+    width: calc(100% - 2 * 10px); }
+  .recent-events__card_7 {
+    margin: 10px;
+    width: calc(100% - 2 * 10px); }
+  .recent-events__card_8 {
+    margin: 10px;
+    width: calc(100% - 2 * 10px); }
+  .recent-events__card_9 {
+    margin: 10px;
+    width: calc(100% - 2 * 10px); }
+  .recent-events__card_10 {
+    margin: 10px;
+    width: calc(100% - 2 * 10px); }
+  .recent-events__card_11 {
+    margin: 10px;
+    width: calc(100% - 2 * 10px); }
+  .recent-events__card_12 {
+    margin: 10px;
+    width: calc(100% - 2 * 10px); } }
+.recent-event-card {
+  box-shadow: 1px 2px 8px #808080; }
+  .recent-event-card__data {
+    padding: 5px; }
+  .recent-event-card__title {
+    color: #8d8f37;
+    margin: 0; }
+
+/*# sourceMappingURL=recent-events.css.map */

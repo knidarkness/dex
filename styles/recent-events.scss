@@ -1,0 +1,43 @@
+$margins: 10px;
+
+.recent-events{
+  display: flex;
+  flex-wrap: wrap;
+  &__card{
+    @for $i from 1 through 12{
+      &_#{$i}{
+        margin: $margins;
+        width: calc(100% / 12 * #{$i} - 2 * #{$margins});
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .recent-events{
+    &__card{
+      @for $i from 1 through 12{
+        &_#{$i}{
+          margin: $margins;
+          width: calc(100% - 2 * #{$margins});
+        }
+      }
+    }
+  }
+}
+
+.recent-event-card{
+  box-shadow: 1px 2px 8px #808080;
+
+  &__pic{
+  }
+
+  &__data{
+    padding: 5px;
+  }
+
+  &__title{
+    color: #8d8f37;
+    margin: 0;
+  }
+}

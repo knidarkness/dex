@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  height: 100%; }
+
+* {
+  max-width: 100%; }
+
+.layout {
+  margin: auto;
+  width: calc(100% - 200px);
+  min-height: 100%;
+  position: relative; }
+
+/*# sourceMappingURL=commons.css.map */
