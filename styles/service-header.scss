@@ -1,7 +1,11 @@
 .service-header{
   margin: auto;
   display: flex;
+  align-items: start;
 
+  &__logo{
+    object-fit: contain;
+  }
 
   &__search-form{
     height: 50px;
@@ -72,6 +76,11 @@
   .service-header{
     flex-direction: row;
 
+
+    &__logo{
+      margin-right: 30px;
+      width: 200px;
+    }
 
     &__search-form{
       height: 50px;
