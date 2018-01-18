@@ -40,7 +40,6 @@
 
 @media screen and (min-width: 1px) {
   .service-header {
-    padding: 100px 10px 10px 10px;
     display: flex;
     flex-direction: column; }
     .service-header__search-form {
@@ -49,8 +48,7 @@
       margin: 50px auto 0 auto; } }
 @media screen and (min-width: 769px) {
   .service-header {
-    flex-direction: row;
-    padding: 200px 10px 10px 10px; }
+    flex-direction: row; }
     .service-header__search-form {
       height: 50px;
       width: calc(100% - 200px);
