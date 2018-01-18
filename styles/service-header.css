@@ -41,10 +41,13 @@
     color: white;
     font-size: 18px; }
 
-@media screen and (min-width: 1px) {
+@media screen and (max-width: 768px) {
   .service-header {
     display: flex;
     flex-direction: column; }
+    .service-header__logo {
+      width: calc(100% - 60px);
+      margin: auto; }
     .service-header__search-form {
       height: 50px;
       width: 100%;
