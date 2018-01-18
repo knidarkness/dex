@@ -27,17 +27,26 @@ $margins: 10px;
 }
 
 .recent-event-card{
+  height: 100%;
+  position: relative;
   box-shadow: 1px 2px 8px #808080;
 
   &__pic{
+    width: 100%;
   }
 
   &__data{
-    padding: 5px;
+    padding: 10px;
+    bottom: 0;
   }
 
   &__title{
     color: #8d8f37;
     margin: 0;
+  }
+
+  &__read-more{
+    color: darkred;
+    text-decoration: none;
   }
 }

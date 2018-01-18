@@ -6,9 +6,15 @@ body {
   max-width: 100%; }
 
 .layout {
+  box-sizing: border-box;
+  padding: 100px 0 0 0;
   margin: auto;
-  width: calc(100% - 200px);
-  min-height: 100%;
+  width: calc(75%);
+  min-height: calc(100vh - 110px) !important;
   position: relative; }
+
+@media screen and (max-width: 768px) {
+  .recent-events {
+    margin-top: 50px; } }
 
 /*# sourceMappingURL=commons.css.map */

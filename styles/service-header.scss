@@ -57,7 +57,6 @@
 
 @media screen and (min-width: 1px){
   .service-header{
-    padding: 100px 10px 10px 10px;
     display: flex;
     flex-direction: column;
 
@@ -72,7 +71,6 @@
 @media screen and (min-width: 769px){
   .service-header{
     flex-direction: row;
-    padding: 200px 10px 10px 10px;
 
 
     &__search-form{

@@ -1,11 +1,40 @@
-.layout{
-  min-height: calc(100vh - 100px) !important;
-}
-
 .footer{
+  padding: 0  12.5% 0 12.5% ;
+
   display: flex;
+  flex-wrap: wrap;
+
   align-items: center;
   justify-content: center;
+
   height: 100px;
+
   text-align: center;
+  text-decoration: none;
+
+  & a{
+    text-decoration: none;
+  }
+
+  &__socials{
+    margin-left: auto;
+  }
+
+  &__socials-logo{
+    width: 30px;
+    height: 30px;
+
+    &:hover{
+      background-color: red;
+      border-radius: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .footer{
+    &__socials{
+      margin: auto;
+    }
+  }
 }

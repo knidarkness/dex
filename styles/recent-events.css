@@ -76,11 +76,19 @@
     margin: 10px;
     width: calc(100% - 2 * 10px); } }
 .recent-event-card {
+  height: 100%;
+  position: relative;
   box-shadow: 1px 2px 8px #808080; }
+  .recent-event-card__pic {
+    width: 100%; }
   .recent-event-card__data {
-    padding: 5px; }
+    padding: 10px;
+    bottom: 0; }
   .recent-event-card__title {
     color: #8d8f37;
     margin: 0; }
+  .recent-event-card__read-more {
+    color: darkred;
+    text-decoration: none; }
 
 /*# sourceMappingURL=recent-events.css.map */
