@@ -1,6 +1,9 @@
 .service-header {
   margin: auto;
-  display: flex; }
+  display: flex;
+  align-items: start; }
+  .service-header__logo {
+    object-fit: contain; }
   .service-header__search-form {
     height: 50px;
     position: relative;
@@ -49,6 +52,9 @@
 @media screen and (min-width: 769px) {
   .service-header {
     flex-direction: row; }
+    .service-header__logo {
+      margin-right: 30px;
+      width: 200px; }
     .service-header__search-form {
       height: 50px;
       width: calc(100% - 200px);
