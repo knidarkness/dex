@@ -1,0 +1,110 @@
+body, * {
+  overflow: hidden; }
+
+.space {
+  background: black;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 100vh; }
+
+.planet {
+  margin: auto;
+  position: relative;
+  width: 500px;
+  height: 500px; }
+
+.planet-body {
+  position: absolute;
+  margin: auto;
+  top: 100px;
+  left: 100px;
+  background: #000066;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  z-index: 1;
+  animation-name: rotateOrbit;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  box-shadow: inset 1px 2px 8px #808080; }
+  .planet-body__crater {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: yellow;
+    box-shadow: inset 1px 1px 4px black; }
+    .planet-body__crater:nth-of-type(1) {
+      top: calc(50% - 5px);
+      left: calc(50% - 5px); }
+    .planet-body__crater:nth-of-type(2) {
+      top: calc(30% - 5px);
+      left: calc(35% - 5px); }
+    .planet-body__crater:nth-of-type(3) {
+      top: calc(20% - 5px);
+      left: calc(77% - 5px); }
+    .planet-body__crater:nth-of-type(4) {
+      top: calc(12% - 5px);
+      left: calc(53% - 5px); }
+    .planet-body__crater:nth-of-type(5) {
+      top: calc(49% - 5px);
+      left: calc(72% - 5px); }
+    .planet-body__crater:nth-of-type(6) {
+      top: calc(60% - 5px);
+      left: calc(23% - 5px); }
+
+.moon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  left: 50px;
+  border-radius: 50%;
+  background: darkblue;
+  box-shadow: 1px 2px 4px yellow; }
+  .moon__crater {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #8f462c; }
+    .moon__crater:nth-of-type(1) {
+      top: calc(60% - 5px);
+      left: calc(23% - 5px); }
+    .moon__crater:nth-of-type(2) {
+      top: calc(65% - 5px);
+      left: calc(51% - 5px); }
+    .moon__crater:nth-of-type(3) {
+      top: calc(41% - 5px);
+      left: calc(61% - 5px); }
+
+.moon-orbit {
+  width: 550px;
+  height: 550px;
+  top: 150px;
+  left: 150px;
+  border-radius: 50%;
+  animation-name: orbitCenter;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; }
+
+@keyframes rotateOrbit {
+  0% {
+    transform: rotate(0deg); }
+  51% {
+    transform: rotate(181deg); }
+  100% {
+    transform: rotate(360deg); } }
+@keyframes orbitCenter {
+  0% {
+    transform: rotate(0deg); }
+  51% {
+    transform: rotate(-179deg); }
+  100% {
+    transform: rotate(-360deg); } }
+
+/*# sourceMappingURL=space.css.map */
